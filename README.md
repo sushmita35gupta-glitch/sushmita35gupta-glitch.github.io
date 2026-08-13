@@ -1,26 +1,52 @@
 # Sushmita Kumari — Data Analyst Portfolio
 
-A professional static portfolio website for a Data Analyst profile.
+Welcome to my Data Analyst Portfolio.
 
-## Before publishing
-Replace these placeholders in `index.html`:
-- `YOUR_RESUME_LINK_HERE`
-- `YOUR_SQL_PROJECT_LINK_HERE`
-- `YOUR_POWER_BI_LINK_HERE`
-- `YOUR_TABLEAU_LINK_HERE`
-- `YOUR_LINKEDIN_LINK_HERE`
-- `YOUR_EMAIL_HERE`
+I am an aspiring Data Analyst with a strong interest in SQL, Python, Power BI, Tableau, Excel, and data-driven problem solving.
 
-## Publish with GitHub Pages
-1. Create a new GitHub repository, for example `sushmita-portfolio`.
-2. Upload `index.html` and `style.css`.
-3. Open the repository's **Settings → Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/ (root)`.
-6. Save and wait for GitHub Pages to publish the site.
+## Skills
 
+- SQL / MySQL
+- Python / Pandas / NumPy
+- Power BI / DAX
+- Tableau
+- Excel
+- Data Cleaning
+- Exploratory Data Analysis
+- RFM Analysis
+- Data Visualization
+- Business Insights
 
-## Portfolio Assets
+## Featured Projects
 
-- `profile.jpg` — profile photograph shown on the home page.
-- `Sushmita_Kumari_Resume.pdf` — resume available from the **View Resume** buttons.
+### Retail Store SQL Mini Project
+Analysed retail data using MySQL and SQL to generate sales and customer insights.
+
+### Customer Insights & Statistical Analysis
+Applied RFM and Pareto analysis to segment customers and identify high-value customer groups.
+
+### Customer Data Analysis
+Performed data cleaning, EDA, and visualization using Python and Pandas.
+
+### Social Media Addiction Analysis
+Created a Power BI dashboard using DAX measures, KPIs, slicers, and charts to analyse social media usage patterns.
+
+## Portfolio Website
+
+Visit my portfolio:
+
+**https://sushmita35gupta-glitch.github.io/**
+
+## Contact
+
+**Sushmita Kumari**  
+Aspiring Data Analyst
+
+GitHub:  
+https://github.com/sushmita35gupta-glitch
+
+LinkedIn:  
+Add your LinkedIn profile link
+
+Email:  
+sushmita.35gupta@gmail.com
