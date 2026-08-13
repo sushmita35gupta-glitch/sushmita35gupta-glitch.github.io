@@ -23,10 +23,10 @@ I am an aspiring Data Analyst with a strong interest in SQL, Python, Power BI, T
 Analysed retail data using MySQL and SQL to generate sales and customer insights.
 
 ### Customer Insights & Statistical Analysis
-Applied RFM and Pareto analysis to segment customers and identify high-value customer groups.
+Performed data cleaning, EDA, and visualization using Python and Pandas.
 
 ### Customer Data Analysis
-Performed data cleaning, EDA, and visualization using Python and Pandas.
+Applied RFM and Pareto analysis to segment customers and identify high-value customer groups.
 
 ### Social Media Addiction Analysis
 Created a Power BI dashboard using DAX measures, KPIs, slicers, and charts to analyse social media usage patterns.
