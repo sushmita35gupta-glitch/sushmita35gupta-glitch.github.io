@@ -159,3 +159,23 @@ footer { text-align: center; padding: 35px 20px; color: #7a8393; border-top: 1px
   .typing-line { width: auto; border-right: 0; }
   .section { opacity: 1; transform: none; }
 }
+.project-video-link {
+  margin: 25px 0;
+}
+
+.linkedin-video-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 13px 22px;
+  border-radius: 10px;
+  background: #0a66c2;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.linkedin-video-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(10, 102, 194, 0.25);
+}
