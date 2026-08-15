@@ -5,7 +5,24 @@
 </p>
 
 <p align="center">
-  <b>Data Analysis • SQL • Python • Power BI • Tableau • Excel</b>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Data%20Analysis-7C3AED?style=for-the-badge&logo=googleanalytics&logoColor=white">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/SQL-2563EB?style=for-the-badge&logo=mysql&logoColor=white">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white">
+  </a>
+  <a href="#">
+    <img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white">
+  </a>
 </p>
 
 ---
