@@ -209,7 +209,6 @@ I use HackerRank to practise **SQL, problem solving, and analytical thinking**.
 # 📫 Connect With Me
 
 <p>
-&nbsp;&nbsp;•&nbsp;&nbsp;
 
 <a href="https://github.com/sushmita35gupta-glitch">
 🐙 <b>GitHub</b>
