@@ -130,10 +130,11 @@ I am continuously developing my analytical and technical skills through hands-on
 
 ## 👥 Customer Insights & Statistical Analysis
 
-**Tools:** Python | Pandas | RFM
+**Tools:** Python | Pandas
 
-- Applied **RFM and Pareto analysis** to segment customers and identify high-value groups.
-- Identified **Champions, Loyal Customers, and Big Spenders**.
+- Performed **data cleaning, EDA, and visualization** to identify customer purchasing patterns.
+- Generated business-focused insights from customer transaction data.
+
 
 🔗 **[View Project on GitHub](https://github.com/sushmita35gupta-glitch/customer-insights-statistical-analysis)**
 
@@ -141,10 +142,10 @@ I am continuously developing my analytical and technical skills through hands-on
 
 ## 📈 Customer Data Analysis
 
-**Tools:** Python | Pandas
+**Tools:** Python | Pandas | RFM
 
-- Performed **data cleaning, EDA, and visualization** to identify customer purchasing patterns.
-- Generated business-focused insights from customer transaction data.
+- Applied **RFM and Pareto analysis** to segment customers and identify high-value groups.
+- Identified **Champions, Loyal Customers, and Big Spenders**.
 
 🔗 **[View Project on GitHub](https://github.com/sushmita35gupta-glitch/Customer_Data_analysis-)**
 
@@ -180,12 +181,10 @@ I am continuously developing my analytical and technical skills through hands-on
 
 # 📄 Resume
 
-<p align="center">
+<p>
   <a href="./Sushmita_Kumari_Resume.pdf" target="_blank">
-    <b>📄 VIEW RESUME</b>
+    <b>📄 View Resume</b>
   </a>
-</p>
-
 </p>
 
 ---
@@ -195,7 +194,7 @@ I am continuously developing my analytical and technical skills through hands-on
 I use HackerRank to practise **SQL, problem solving, and analytical thinking**.
 
 <a href="https://www.hackerrank.com/profile/sushmita_35gupta">
-🔗 **[View My HackerRank Profile]**
+🔗 <b>View My HackerRank Profile</b>
 </a>
 
 ---
@@ -209,7 +208,7 @@ I use HackerRank to practise **SQL, problem solving, and analytical thinking**.
 
 # 📫 Connect With Me
 
-<p align="center">
+<p>
 &nbsp;&nbsp;•&nbsp;&nbsp;
 
 <a href="https://github.com/sushmita35gupta-glitch">
