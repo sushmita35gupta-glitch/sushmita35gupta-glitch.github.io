@@ -58,238 +58,187 @@ sushmita.35gupta@gmail.com
 
 
 
-<!-- ========================= -->
-<!--       HEADER / TYPING     -->
-<!-- ========================= -->
+# 👩‍💻 Sushmita Kumari — Data Analyst
 
-<div align="center">
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=28&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=750&lines=Aspiring+Data+Analyst;SQL+%7C+Python+%7C+Power+BI+%7C+Tableau;Turning+Data+into+Business+Insights" alt="Typing animation" />
+</p>
 
-# 👋 Hi, I'm **Sushmita Kumari**
-
-<img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=28&duration=2800&pause=900&color=000000&center=true&vCenter=true&width=750&lines=Aspiring+Data+Analyst;SQL+%7C+Python+%7C+Power+BI+%7C+Tableau;Turning+Data+into+Business+Insights" alt="Typing Animation">
-
-<br>
-
-<img src="https://komarev.com/ghpvc/?username=sushmita35gupta-glitch&label=Profile%20Views&color=7C3AED&style=flat-square" alt="Profile Views">
-
-</div>
+<p align="center">
+  <b>Data Analysis • SQL • Python • Power BI • Tableau • Excel</b>
+</p>
 
 ---
 
-<!-- ========================= -->
-<!--          ABOUT ME         -->
-<!-- ========================= -->
+## 👋 About Me
 
-## 👩‍💻 About Me
+I am an aspiring **Data Analyst** with a strong interest in **SQL, Python, Power BI, Tableau, and Excel**. I enjoy cleaning and analysing data, identifying patterns, creating dashboards, and translating data into clear business insights.
 
-I am an **Aspiring Data Analyst** with a strong interest in **SQL, Python, Power BI, Tableau and Excel**.
+My portfolio focuses on practical projects involving **data cleaning, exploratory data analysis, SQL querying, RFM analysis, statistical analysis, dashboard development, DAX measures, and business reporting**.
 
-I enjoy transforming raw data into meaningful insights through **data cleaning, exploratory analysis, visualization, dashboards and business reporting**.
-
-My focus is on solving business problems with data and presenting insights in a clear and actionable way.
+I am continuously developing my analytical and technical skills through hands-on projects and practical problem solving.
 
 ---
 
-<!-- ========================= -->
-<!--           SKILLS          -->
-<!-- ========================= -->
-
-## 🛠️ Skills & Tools
+## 🛠️ Skills
 
 ### 💻 Technical Skills
 
+- 🗄️ **SQL / MySQL**
+- 🐍 **Python / Pandas / NumPy**
+- 📊 **Power BI / DAX / Measures**
+- 📈 **Tableau**
+- 📗 **Microsoft Excel**
+- 🧹 **Data Cleaning**
+- 🔎 **Exploratory Data Analysis**
+- 📊 **Data Visualization**
+- 👥 **RFM & Pareto Analysis**
+
+### 🤝 Soft Skills
+
+- Analytical Thinking
+- Problem Solving
+- Communication
+- Attention to Detail
+- Business-Oriented Thinking
+
+### 📊 Project Skills
+
+- Data Cleaning
+- Exploratory Data Analysis
+- SQL Business Analysis
+- Customer Segmentation
+- Dashboard Development
+- KPI Analysis
+- Statistical Analysis
+- Business Insights
+
+---
+
+# 🚀 Featured Projects
+
+## 🗄️ Retail Store SQL Mini Project
+
+**Tools:** MySQL | SQL
+
+- Analysed retail data using **JOINs, GROUP BY, WHERE, ORDER BY, and aggregate functions**.
+- Generated sales and customer insights for business reporting.
+
+🔗 **[View Project on GitHub](https://github.com/sushmita35gupta-glitch/Retail-Store-SQL-Mini-Project)**
+
+---
+
+## 👥 Customer Insights & Statistical Analysis
+
+**Tools:** Python | Pandas | RFM
+
+- Applied **RFM and Pareto analysis** to segment customers and identify high-value groups.
+- Identified **Champions, Loyal Customers, and Big Spenders**.
+
+🔗 **[View Project on GitHub](https://github.com/sushmita35gupta-glitch/customer-insights-statistical-analysis)**
+
+---
+
+## 📈 Customer Data Analysis
+
+**Tools:** Python | Pandas
+
+- Performed **data cleaning, EDA, and visualization** to identify customer purchasing patterns.
+- Generated business-focused insights from customer transaction data.
+
+🔗 **[View Project on GitHub](https://github.com/sushmita35gupta-glitch/Customer_Data_analysis-)**
+
+---
+
+## 📊 Social Media Addiction Analysis
+
+**Tools:** Power BI | DAX | Data Visualization
+
+- Analysed social media usage and addiction patterns using **Power BI**.
+- Created **DAX measures, KPIs, slicers, and interactive charts**.
+- Designed a dashboard to communicate behavioural patterns and insights.
+
+🔗 **[View Project on GitHub](https://github.com/sushmita35gupta-glitch/Social-Media-Addiction-Analysis)**
+
+---
+
+# 🌐 Portfolio Website
+
 <p align="center">
 
-<img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=mysql&logoColor=white">
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-
-<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white">
-
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white">
-
-<img src="https://img.shields.io/badge/Power%20BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
-
-<img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white">
-
-<img src="https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white">
-
-</p>
-
-### 📊 Data Analytics
-
-<p align="center">
-
-`Data Cleaning` • `EDA` • `Data Visualization` • `RFM Analysis` • `Statistical Analysis`
-
-</p>
-
-### 💼 Business Analytics
-
-<p align="center">
-
-`KPI Analysis` • `Business Reporting` • `Customer Analysis` • `Business Insights`
-
-</p>
-
----
-
-<!-- ========================= -->
-<!--        PROJECTS           -->
-<!-- ========================= -->
-
-## 📂 Featured Projects
-
-### 🛒 Retail Store SQL Mini Project
-
-**MySQL | SQL**
-
-Analysed retail data using SQL to answer business-focused questions and generate sales and customer insights.
-
-**Key Skills:** `JOINs` `GROUP BY` `WHERE` `ORDER BY` `Aggregate Functions`
-
-🔗 **[View Project on GitHub →](https://github.com/sushmita35gupta-glitch/Retail-Store-SQL-Mini-Project)**
-
----
-
-### 📈 Customer Insights & Statistical Analysis
-
-**Python | RFM | Statistical Analysis**
-
-Applied **RFM and Pareto analysis** to segment customers and identify high-value customer groups such as Champions, Loyal Customers and Big Spenders.
-
-**Key Skills:** `RFM Analysis` `Pareto Analysis` `EDA` `Visualization`
-
-🔗 **[View Project on GitHub →](https://github.com/sushmita35gupta-glitch/customer-insights-statistical-analysis)**
-
----
-
-### 👥 Customer Data Analysis
-
-**Python | Pandas**
-
-Performed data cleaning, exploratory data analysis and visualization to identify customer purchasing patterns and generate business insights.
-
-**Key Skills:** `Python` `Pandas` `NumPy` `EDA` `Data Visualization`
-
-🔗 **[View Project on GitHub →](https://github.com/sushmita35gupta-glitch/Customer_Data_analysis-)**
-
----
-
-### 📱 Social Media Addiction Analysis
-
-**Power BI | DAX | Data Visualization**
-
-Created an interactive Power BI dashboard using **DAX measures, KPIs, slicers and charts** to analyse social media usage and behavioural patterns.
-
-**Key Skills:** `Power BI` `DAX` `Measures` `KPIs` `Charts`
-
-🔗 **[View Project on GitHub →](https://github.com/sushmita35gupta-glitch/Social-Media-Addiction-Analysis)**
-
----
-
-<!-- ========================= -->
-<!--       PORTFOLIO           -->
-<!-- ========================= -->
-
-## 🌐 My Portfolio
-
-<div align="center">
-
-### 🚀 Explore my Data Analyst Portfolio
+### ✨ Explore My Data Analyst Portfolio ✨
 
 <a href="https://sushmita35gupta-glitch.github.io/">
 
-<img src="https://img.shields.io/badge/🌐%20Visit%20Portfolio-7C3AED?style=for-the-badge&logoColor=white">
+<b>🚀 VISIT PORTFOLIO →</b>
 
 </a>
 
-</div>
+</p>
 
 ---
 
-<!-- ========================= -->
-<!--          RESUME           -->
-<!-- ========================= -->
+# 📄 Resume
 
-## 📄 Resume
+<p align="center">
 
-<div align="center">
+<a href="https://sushmita35gupta-glitch.github.io/Sushmita_Kumari_Resume.pdf">
 
-<a href="./Sushmita_Kumari_Resume.pdf">
-
-<img src="https://img.shields.io/badge/📄%20View%20Resume-000000?style=for-the-badge">
+<b>📄 VIEW RESUME</b>
 
 </a>
 
-</div>
+</p>
 
 ---
 
-<!-- ========================= -->
-<!--       GITHUB STATS        -->
-<!-- ========================= -->
+# 🏆 HackerRank
 
-## 📊 GitHub Activity
+I use HackerRank to practise **SQL, problem solving, and analytical thinking**.
 
-<div align="center">
+🔗 **[View My HackerRank Profile](#)**
 
-<img src="https://github-readme-stats.vercel.app/api?username=sushmita35gupta-glitch&show_icons=true&hide_border=true&title_color=7C3AED&icon_color=7C3AED&text_color=333333&bg_color=ffffff" height="165">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sushmita35gupta-glitch&layout=compact&hide_border=true&title_color=7C3AED&text_color=333333&bg_color=ffffff" height="165">
-
-</div>
+> Replace `#` with your actual HackerRank profile URL.
 
 ---
 
-<!-- ========================= -->
-<!--       CONTRIBUTIONS       -->
-<!-- ========================= -->
+# 🌍 Languages
 
-## 🐍 Contribution Activity
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/ashutosh00710/github-readme-activity-graph/master/profile-3d-contrib/profile-night-rainbow.svg" width="90%" alt="GitHub Contribution Animation">
-
-</div>
+- 🇬🇧 **English**
+- 🇮🇳 **Hindi**
 
 ---
 
-<!-- ========================= -->
-<!--         CONTACT           -->
-<!-- ========================= -->
+# 📫 Connect With Me
 
-## 📬 Connect With Me
-
-<div align="center">
-
-<a href="https://www.linkedin.com/in/sushmita-kumari-91172a3b4/">
-
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-
-</a>
-
-<a href="mailto:sushmita.35gupta@gmail.com">
-
-<img src="https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
-
-</a>
+<p align="center">
 
 <a href="https://github.com/sushmita35gupta-glitch">
-
-<img src="https://img.shields.io/badge/GitHub-Profile-000000?style=for-the-badge&logo=github&logoColor=white">
-
+🐙 <b>GitHub</b>
 </a>
 
-</div>
+&nbsp;&nbsp;•&nbsp;&nbsp;
+
+<a href="https://www.linkedin.com/in/sushmita-kumari-91172a3b4/">
+💼 <b>LinkedIn</b>
+</a>
+
+&nbsp;&nbsp;•&nbsp;&nbsp;
+
+<a href="mailto:sushmita.35gupta@gmail.com">
+📧 <b>Email</b>
+</a>
+
+</p>
 
 ---
 
-<div align="center">
+<p align="center">
 
-### 💡 *Turning data into meaningful business insights.*
+### 💜 Turning Data Into Clear Business Insights
 
-**Sushmita Kumari | Aspiring Data Analyst**
+**SQL • Python • Power BI • Tableau • Excel**
+
+</p>
 
 </div>
