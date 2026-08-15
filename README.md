@@ -182,7 +182,9 @@ I am continuously developing my analytical and technical skills through hands-on
 
 <p align="center">
 
-<a href="https://sushmita35gupta-glitch.github.io/Sushmita_Kumari_Resume.pdf">
+<a href="./Sushmita_Kumari_Resume.pdf">
+
+<img src="https://img.shields.io/badge/📄%20View%20Resume-000000?style=for-the-badge">
 
 <b>📄 VIEW RESUME</b>
 
