@@ -194,9 +194,9 @@ I am continuously developing my analytical and technical skills through hands-on
 
 I use HackerRank to practise **SQL, problem solving, and analytical thinking**.
 
-🔗 **[View My HackerRank Profile](https://www.hackerrank.com/profile/sushmita_35gupta)**
-
-> Replace `#` with your actual HackerRank profile URL.
+<a href="https://www.hackerrank.com/profile/sushmita_35gupta">
+🔗 **[View My HackerRank Profile]**
+</a>
 
 ---
 
@@ -210,6 +210,7 @@ I use HackerRank to practise **SQL, problem solving, and analytical thinking**.
 # 📫 Connect With Me
 
 <p align="center">
+&nbsp;&nbsp;•&nbsp;&nbsp;
 
 <a href="https://github.com/sushmita35gupta-glitch">
 🐙 <b>GitHub</b>
