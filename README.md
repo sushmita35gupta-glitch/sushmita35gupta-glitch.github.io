@@ -1,7 +1,7 @@
 # 👩‍💻 Sushmita Kumari — Data Analyst
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=28&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=750&lines=Aspiring+Data+Analyst;SQL+%7C+Python+%7C+Power+BI+%7C+Tableau;Turning+Data+into+Business+Insights" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Montserrat&weight=600&size=28&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=750&lines=Aspiring+Data+Analyst;SQL+%7C+Excel+%7C+Python+%7C+Power+BI+%7C+Tableau;Turning+Data+into+Business+Insights" alt="Typing animation" />
 </p>
 
 <p align="center">
