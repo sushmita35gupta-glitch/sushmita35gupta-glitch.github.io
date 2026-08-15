@@ -7,8 +7,6 @@
   />
 </p>
 
-# Sushmita Kumari — Data Analyst Portfolio
-
 Welcome to my Data Analyst Portfolio.
 
 I am an aspiring Data Analyst with a strong interest in SQL, Python, Power BI, Tableau, Excel, and data-driven problem solving.
