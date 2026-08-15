@@ -181,10 +181,6 @@ I am continuously developing my analytical and technical skills through hands-on
 # 📄 Resume
 
 <p align="center">
-
-## 📄 Resume
-
-<p align="center">
   <a href="./Sushmita_Kumari_Resume.pdf" target="_blank">
     <b>📄 VIEW RESUME</b>
   </a>
@@ -198,7 +194,7 @@ I am continuously developing my analytical and technical skills through hands-on
 
 I use HackerRank to practise **SQL, problem solving, and analytical thinking**.
 
-🔗 **[View My HackerRank Profile](#)**
+🔗 **[View My HackerRank Profile](https://www.hackerrank.com/profile/sushmita_35gupta)**
 
 > Replace `#` with your actual HackerRank profile URL.
 
