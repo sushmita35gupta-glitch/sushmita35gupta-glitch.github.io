@@ -184,119 +184,83 @@ footer { text-align: center; padding: 35px 20px; color: #7a8393; border-top: 1px
 
 
 /* =========================================
-   MOBILE RESPONSIVE FIX — HERO TEXT
-   ========================================= */
-
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden;
-}
-
-body {
-  margin: 0;
-}
-
-/* Make every section fit the screen */
-section,
-header,
-main,
-footer {
-  max-width: 100%;
-}
-
-/* =========================================
-   MOBILE
+   MOBILE RESPONSIVE FIX
    ========================================= */
 
 @media (max-width: 768px) {
 
-  /* Prevent containers from becoming wider than screen */
-  .container,
-  .hero,
-  .hero-content,
-  .hero-text,
-  .hero-left,
-  .hero-right {
+  /* Prevent horizontal scrolling */
+  html,
+  body {
     width: 100%;
     max-width: 100%;
-    min-width: 0;
+    overflow-x: hidden;
   }
 
-  /* Hero section */
+  * {
+    box-sizing: border-box;
+  }
+
+  /* ================= HEADER ================= */
+
+  header,
+  nav,
+  .navbar {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* ================= HERO ================= */
+
   .hero {
-    padding: 70px 24px 50px;
+    width: 100%;
+    max-width: 100%;
+    padding: 70px 34px 60px;
     overflow: hidden;
   }
 
-  /* Small heading */
-  .hero .eyebrow,
-  .hero .label,
-  .hero .section-label {
+  .hero-content {
+    width: 100%;
     max-width: 100%;
-    font-size: 15px;
-    letter-spacing: 2px;
-    line-height: 1.4;
-    white-space: normal;
-    overflow-wrap: break-word;
+    min-width: 0;
   }
 
-  /* MAIN "Turning data..." heading */
-  .hero h1 {
+  .hero h1,
+  .hero-title {
     width: 100%;
     max-width: 100%;
     min-width: 0;
 
-    font-size: clamp(42px, 11vw, 64px);
+    font-size: clamp(38px, 11vw, 58px);
     line-height: 1.05;
 
-    margin: 25px 0;
-    padding: 0;
-
-    white-space: normal;
-    overflow-wrap: break-word;
     word-break: normal;
-  }
-
-  /* If your animation uses a span */
-  .hero h1 span {
-    max-width: 100%;
-    white-space: normal;
     overflow-wrap: break-word;
+    white-space: normal;
+
+    margin: 20px 0 28px;
   }
 
-  /* Cursor used by typing animation */
-  .hero h1 .cursor {
-    display: inline-block;
-    max-width: 4px;
-  }
-
-  /* Description text */
-  .hero p {
+  .hero p,
+  .hero-description {
     width: 100%;
     max-width: 100%;
     min-width: 0;
 
     font-size: 20px;
-    line-height: 1.55;
-
-    margin: 0 0 30px;
+    line-height: 1.6;
 
     white-space: normal;
     overflow-wrap: break-word;
     word-break: normal;
+
+    margin-bottom: 30px;
   }
 
-  /* Buttons */
+  /* ================= HERO BUTTONS ================= */
+
   .hero-buttons {
     width: 100%;
-    max-width: 100%;
-
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -306,11 +270,104 @@ footer {
   .hero-buttons button {
     width: 100%;
     max-width: 100%;
+    text-align: center;
   }
 
-  /* Hero image */
-  .hero-image,
-  .hero-right img {
+  /* ================= HERO IMAGE ================= */
+
+  .hero-image {
+    width: 100%;
+    max-width: 100%;
+    margin: 45px auto 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-image img {
+    width: min(100%, 350px);
+    height: auto;
+    max-width: 100%;
+  }
+
+  /* ================= GENERAL SECTIONS ================= */
+
+  section {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+
+  /* ================= ABOUT ================= */
+
+  .about {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+
+  .about p {
+    width: 100%;
+    max-width: 100%;
+    font-size: 20px;
+    line-height: 1.65;
+    overflow-wrap: break-word;
+  }
+
+  /* ================= SKILLS ================= */
+
+  .skills {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+
+  .skills-grid {
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  /* ================= PROJECTS ================= */
+
+  .projects {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+
+  .project-grid {
+    width: 100%;
+    max-width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  .project {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  /* ================= VIDEO ================= */
+
+  .project-video {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .project-video video {
     width: 100%;
     max-width: 100%;
     height: auto;
@@ -325,23 +382,32 @@ footer {
 @media (max-width: 480px) {
 
   .hero {
-    padding: 55px 20px 40px;
+    padding: 55px 22px 50px;
   }
 
-  .hero h1 {
-    font-size: 46px;
-    line-height: 1.08;
+  .hero h1,
+  .hero-title {
+    font-size: clamp(36px, 12vw, 50px);
+    line-height: 1.05;
   }
 
-  .hero p {
-    font-size: 19px;
-    line-height: 1.55;
+  .hero p,
+  .hero-description {
+    font-size: 18px;
+    line-height: 1.6;
   }
 
-  .hero .eyebrow,
-  .hero .label,
-  .hero .section-label {
-    font-size: 14px;
+  .container,
+  .about,
+  .skills,
+  .projects {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .skills-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
   }
 }
 
