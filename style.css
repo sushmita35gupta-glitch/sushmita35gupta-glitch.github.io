@@ -56,7 +56,7 @@ h1 {
 h1 span { color: #7c3aed; }
 .typing-line {
   display: inline-block;
-  white-space: nowrap;
+ 
   overflow: hidden;
   width: 700px;
   border-right: 3px solid #7c3aed;
@@ -185,6 +185,7 @@ footer { text-align: center; padding: 35px 20px; color: #7a8393; border-top: 1px
 
 /* =========================================
    MOBILE RESPONSIVE FIX
+   Prevent typing animation from cutting text
    ========================================= */
 
 @media (max-width: 768px) {
@@ -197,217 +198,70 @@ footer { text-align: center; padding: 35px 20px; color: #7a8393; border-top: 1px
     overflow-x: hidden;
   }
 
-  * {
+  /* Hero section */
+  .hero,
+  .hero-content,
+  .hero-text {
+    width: 100%;
+    max-width: 100%;
     box-sizing: border-box;
   }
 
-  /* ================= HEADER ================= */
-
-  header,
-  nav,
-  .navbar {
+  /* Main heading */
+  .hero h1 {
     width: 100%;
     max-width: 100%;
-  }
-
-  /* ================= HERO ================= */
-
-  .hero {
-    width: 100%;
-    max-width: 100%;
-    padding: 70px 34px 60px;
-    overflow: hidden;
-  }
-
-  .hero-content {
-    width: 100%;
-    max-width: 100%;
-    min-width: 0;
-  }
-
-  .hero h1,
-  .hero-title {
-    width: 100%;
-    max-width: 100%;
-    min-width: 0;
-
-    font-size: clamp(38px, 11vw, 58px);
-    line-height: 1.05;
-
+    height: auto;
+    overflow: visible;
+    white-space: normal;
     word-break: normal;
     overflow-wrap: break-word;
-    white-space: normal;
-
-    margin: 20px 0 28px;
   }
 
-  .hero p,
-  .hero-description {
+  /* IMPORTANT:
+     Disable typing animation on mobile */
+  .typing-line,
+  .accent-line {
+    display: inline;
+    width: auto !important;
+    max-width: 100%;
+    height: auto;
+    white-space: normal;
+    overflow: visible;
+
+    animation: none !important;
+    border-right: none !important;
+  }
+
+  /* Paragraph */
+  .intro {
     width: 100%;
     max-width: 100%;
-    min-width: 0;
-
-    font-size: 20px;
-    line-height: 1.6;
-
+    height: auto;
+    overflow: visible;
     white-space: normal;
-    overflow-wrap: break-word;
     word-break: normal;
+    overflow-wrap: break-word;
 
-    margin-bottom: 30px;
+    animation: none !important;
   }
 
-  /* ================= HERO BUTTONS ================= */
-
-  .hero-buttons {
+  /* Buttons */
+  .buttons {
     width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     gap: 14px;
   }
 
-  .hero-buttons a,
-  .hero-buttons button {
+  .buttons a,
+  .buttons button {
     width: 100%;
     max-width: 100%;
-    text-align: center;
-  }
-
-  /* ================= HERO IMAGE ================= */
-
-  .hero-image {
-    width: 100%;
-    max-width: 100%;
-    margin: 45px auto 0;
-    display: flex;
-    justify-content: center;
-  }
-
-  .hero-image img {
-    width: min(100%, 350px);
-    height: auto;
-    max-width: 100%;
-  }
-
-  /* ================= GENERAL SECTIONS ================= */
-
-  section {
-    width: 100%;
-    max-width: 100%;
-    overflow: hidden;
-  }
-
-  .container {
-    width: 100%;
-    max-width: 100%;
-    padding-left: 34px;
-    padding-right: 34px;
-  }
-
-  /* ================= ABOUT ================= */
-
-  .about {
-    width: 100%;
-    max-width: 100%;
-    padding-left: 34px;
-    padding-right: 34px;
-  }
-
-  .about p {
-    width: 100%;
-    max-width: 100%;
-    font-size: 20px;
-    line-height: 1.65;
-    overflow-wrap: break-word;
-  }
-
-  /* ================= SKILLS ================= */
-
-  .skills {
-    width: 100%;
-    max-width: 100%;
-    padding-left: 34px;
-    padding-right: 34px;
-  }
-
-  .skills-grid {
-    width: 100%;
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 16px;
-  }
-
-  /* ================= PROJECTS ================= */
-
-  .projects {
-    width: 100%;
-    max-width: 100%;
-    padding-left: 34px;
-    padding-right: 34px;
-  }
-
-  .project-grid {
-    width: 100%;
-    max-width: 100%;
-    grid-template-columns: 1fr;
-  }
-
-  .project {
-    width: 100%;
-    max-width: 100%;
-    min-width: 0;
-  }
-
-  /* ================= VIDEO ================= */
-
-  .project-video {
-    width: 100%;
-    max-width: 100%;
-    overflow: hidden;
-  }
-
-  .project-video video {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
+    box-sizing: border-box;
   }
 }
 
 
-/* =========================================
-   SMALL PHONES
-   ========================================= */
-
-@media (max-width: 480px) {
-
-  .hero {
-    padding: 55px 22px 50px;
-  }
-
-  .hero h1,
-  .hero-title {
-    font-size: clamp(36px, 12vw, 50px);
-    line-height: 1.05;
-  }
-
-  .hero p,
-  .hero-description {
-    font-size: 18px;
-    line-height: 1.6;
-  }
-
-  .container,
-  .about,
-  .skills,
-  .projects {
-    padding-left: 22px;
-    padding-right: 22px;
-  }
-
-  .skills-grid {
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-  }
-}
-
+    
