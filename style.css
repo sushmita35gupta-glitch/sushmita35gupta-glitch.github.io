@@ -41,7 +41,7 @@ main { max-width: 1120px; margin: auto; padding: 0 28px; }
   gap: 72px;
   align-items: center;
 }
-.hero-copy { min-width: 1000px; }
+.hero-copy { min-width: 700px; }
 .eyebrow {
   color: #7c3aed; font-size: 12px; font-weight: 800;
   letter-spacing: 2px; margin-bottom: 16px;
