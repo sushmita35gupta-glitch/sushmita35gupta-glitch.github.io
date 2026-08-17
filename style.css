@@ -179,3 +179,134 @@ footer { text-align: center; padding: 35px 20px; color: #7a8393; border-top: 1px
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(10, 102, 194, 0.25);
 }
+/* =================================
+   MOBILE RESPONSIVE FIX
+   ================================= */
+
+@media (max-width: 768px) {
+
+  /* Header */
+  .site-header {
+    width: 100%;
+    padding: 18px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+  }
+
+  /* Logo */
+  .logo {
+    font-size: 25px;
+    line-height: 1.1;
+    white-space: normal;
+    flex-shrink: 0;
+  }
+
+  /* Navigation */
+  .main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 10px 16px;
+    max-width: 55%;
+  }
+
+  .main-nav a {
+    font-size: 14px;
+    white-space: nowrap;
+  }
+
+  /* Hero */
+  .hero {
+    width: 100%;
+    padding: 70px 20px 50px;
+    overflow: hidden;
+  }
+
+  .hero h1 {
+    width: 100%;
+    max-width: 100%;
+    font-size: clamp(38px, 10vw, 56px);
+    line-height: 1.05;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+
+  .hero p {
+    width: 100%;
+    max-width: 100%;
+    font-size: 17px;
+    line-height: 1.6;
+  }
+
+  /* Buttons */
+  .hero-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .hero-buttons a {
+    font-size: 15px;
+  }
+
+  /* Profile image */
+  .profile-photo {
+    width: min(280px, 80vw);
+    height: auto;
+    display: block;
+    margin: 35px auto 0;
+  }
+}
+
+
+/* =================================
+   SMALL MOBILE
+   ================================= */
+
+@media (max-width: 480px) {
+
+  .site-header {
+    padding: 16px 18px;
+    align-items: flex-start;
+  }
+
+  .logo {
+    font-size: 22px;
+  }
+
+  .main-nav {
+    gap: 8px 12px;
+    max-width: 58%;
+  }
+
+  .main-nav a {
+    font-size: 12px;
+  }
+
+  .hero {
+    padding: 55px 20px 40px;
+  }
+
+  .hero h1 {
+    font-size: 40px;
+    line-height: 1.05;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .hero-buttons {
+    width: 100%;
+  }
+
+  .hero-buttons a {
+    padding: 14px 20px;
+  }
+
+  .profile-photo {
+    width: 240px;
+  }
+}
