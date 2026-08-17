@@ -35,13 +35,13 @@ main { max-width: 1120px; margin: auto; padding: 0 28px; }
   padding: 72px 0 80px;
 }
 .hero-content {
-  width: 100%;
+  width: 100vw;
   display: grid;
   grid-template-columns: minmax(0, 1fr) 330px;
   gap: 72px;
   align-items: center;
 }
-.hero-copy { min-width: 0; }
+.hero-copy { min-width: 700px; }
 .eyebrow {
   color: #7c3aed; font-size: 12px; font-weight: 800;
   letter-spacing: 2px; margin-bottom: 16px;
