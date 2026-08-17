@@ -179,134 +179,239 @@ footer { text-align: center; padding: 35px 20px; color: #7a8393; border-top: 1px
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(10, 102, 194, 0.25);
 }
-/* =================================
-   MOBILE RESPONSIVE FIX
-   ================================= */
+
+ 
+/* =====================================================
+   FINAL MOBILE RESPONSIVE FIX
+   ===================================================== */
 
 @media (max-width: 768px) {
 
-  /* Header */
-  .site-header {
+  html,
+  body {
     width: 100%;
-    padding: 18px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 15px;
+    max-width: 100%;
+    overflow-x: hidden !important;
   }
 
-  /* Logo */
-  .logo {
-    font-size: 25px;
-    line-height: 1.1;
-    white-space: normal;
-    flex-shrink: 0;
-  }
+  /* ---------- HEADER ---------- */
 
-  /* Navigation */
-  .main-nav {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-end;
-    gap: 10px 16px;
-    max-width: 55%;
-  }
-
-  .main-nav a {
-    font-size: 14px;
-    white-space: nowrap;
-  }
-
-  /* Hero */
-  .hero {
-    width: 100%;
-    padding: 70px 20px 50px;
+  header {
+    width: 100% !important;
+    max-width: 100% !important;
     overflow: hidden;
   }
 
-  .hero h1 {
-    width: 100%;
-    max-width: 100%;
-    font-size: clamp(38px, 10vw, 56px);
-    line-height: 1.05;
-    word-break: normal;
-    overflow-wrap: break-word;
-  }
-
-  .hero p {
-    width: 100%;
-    max-width: 100%;
-    font-size: 17px;
-    line-height: 1.6;
-  }
-
-  /* Buttons */
-  .hero-buttons {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-  }
-
-  .hero-buttons a {
-    font-size: 15px;
-  }
-
-  /* Profile image */
-  .profile-photo {
-    width: min(280px, 80vw);
-    height: auto;
-    display: block;
-    margin: 35px auto 0;
-  }
-}
-
-
-/* =================================
-   SMALL MOBILE
-   ================================= */
-
-@media (max-width: 480px) {
-
-  .site-header {
-    padding: 16px 18px;
-    align-items: flex-start;
+  .nav {
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 20px !important;
+    display: flex !important;
+    align-items: flex-start !important;
+    justify-content: space-between !important;
   }
 
   .logo {
-    font-size: 22px;
+    font-size: 26px !important;
+    line-height: 1.2 !important;
+    max-width: 160px !important;
   }
 
-  .main-nav {
-    gap: 8px 12px;
-    max-width: 58%;
+  .nav-links {
+    width: auto !important;
+    max-width: 220px !important;
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: flex-end !important;
+    gap: 12px !important;
   }
 
-  .main-nav a {
-    font-size: 12px;
+  .nav-links a {
+    font-size: 14px !important;
+    white-space: nowrap !important;
   }
+
+
+  /* ---------- HERO ---------- */
 
   .hero {
-    padding: 55px 20px 40px;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 55px 20px !important;
+    overflow: hidden !important;
   }
+
+  .hero-content {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    /* IMPORTANT */
+    display: flex !important;
+    flex-direction: column !important;
+
+    gap: 30px !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+
+  /* ---------- HERO TEXT ---------- */
 
   .hero h1 {
-    font-size: 40px;
-    line-height: 1.05;
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+
+    font-size: 48px !important;
+    line-height: 1.05 !important;
+
+    letter-spacing: -1.5px !important;
+
+    margin: 15px 0 20px !important;
+
+    white-space: normal !important;
+    overflow-wrap: anywhere !important;
+    word-break: normal !important;
   }
 
-  .hero p {
-    font-size: 16px;
+
+  .eyebrow {
+    font-size: 13px !important;
+    letter-spacing: 2px !important;
   }
 
-  .hero-buttons {
-    width: 100%;
+
+  /* ---------- DESCRIPTION ---------- */
+
+  .intro {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 0 !important;
+
+    font-size: 17px !important;
+    line-height: 1.6 !important;
+
+    margin: 0 0 10px !important;
+
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
   }
 
-  .hero-buttons a {
-    padding: 14px 20px;
+
+  /* ---------- BUTTONS ---------- */
+
+  .buttons {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    display: flex !important;
+    flex-wrap: wrap !important;
+
+    gap: 12px !important;
+
+    margin: 0 !important;
+  }
+
+  .btn {
+    flex: 1 1 150px !important;
+
+    min-width: 0 !important;
+
+    text-align: center !important;
+
+    padding: 15px 18px !important;
+  }
+
+
+  /* ---------- PROFILE PHOTO ---------- */
+
+  .hero-visual {
+    width: 100% !important;
+    max-width: 100% !important;
+
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+
+    margin: 10px 0 0 !important;
+    padding: 0 !important;
+
+    position: static !important;
+    transform: none !important;
   }
 
   .profile-photo {
-    width: 240px;
+    width: 270px !important;
+    max-width: 85% !important;
+    height: auto !important;
+
+    display: block !important;
+
+    margin: 0 auto !important;
+
+    position: static !important;
+    transform: none !important;
   }
 }
+
+
+/* =====================================================
+   SMALL MOBILE PHONES
+   ===================================================== */
+
+@media (max-width: 480px) {
+
+  .nav {
+    padding: 18px 20px !important;
+  }
+
+  .logo {
+    font-size: 24px !important;
+    max-width: 140px !important;
+  }
+
+  .nav-links {
+    max-width: 180px !important;
+    gap: 10px 12px !important;
+  }
+
+  .nav-links a {
+    font-size: 13px !important;
+  }
+
+
+  .hero {
+    padding: 45px 20px !important;
+  }
+
+
+  .hero h1 {
+    font-size: 40px !important;
+    line-height: 1.08 !important;
+    letter-spacing: -1px !important;
+  }
+
+
+  .intro {
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+  }
+
+
+  .buttons {
+    flex-direction: column !important;
+  }
+
+  .btn {
+    width: 100% !important;
+    flex: none !important;
+  }
+
+
+  .profile-photo {
+    width: 260px !important;
+    max-width: 85% !important;
+  }
+}
+  
