@@ -180,238 +180,232 @@ footer { text-align: center; padding: 35px 20px; color: #7a8393; border-top: 1px
   box-shadow: 0 8px 20px rgba(10, 102, 194, 0.25);
 }
 
- 
-/* =====================================================
-   FINAL MOBILE RESPONSIVE FIX
-   ===================================================== */
+/* =========================================
+   MOBILE RESPONSIVE FIX
+   ========================================= */
 
 @media (max-width: 768px) {
 
+  /* Prevent horizontal scrolling */
   html,
   body {
     width: 100%;
     max-width: 100%;
-    overflow-x: hidden !important;
+    overflow-x: hidden;
   }
 
-  /* ---------- HEADER ---------- */
+  * {
+    box-sizing: border-box;
+  }
 
-  header {
-    width: 100% !important;
-    max-width: 100% !important;
+  /* ================= HEADER ================= */
+
+  header,
+  nav,
+  .navbar {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  /* ================= HERO ================= */
+
+  .hero {
+    width: 100%;
+    max-width: 100%;
+    padding: 70px 34px 60px;
     overflow: hidden;
   }
 
-  .nav {
-    width: 100% !important;
-    max-width: 100% !important;
-    padding: 20px !important;
-    display: flex !important;
-    align-items: flex-start !important;
-    justify-content: space-between !important;
-  }
-
-  .logo {
-    font-size: 26px !important;
-    line-height: 1.2 !important;
-    max-width: 160px !important;
-  }
-
-  .nav-links {
-    width: auto !important;
-    max-width: 220px !important;
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: flex-end !important;
-    gap: 12px !important;
-  }
-
-  .nav-links a {
-    font-size: 14px !important;
-    white-space: nowrap !important;
-  }
-
-
-  /* ---------- HERO ---------- */
-
-  .hero {
-    width: 100% !important;
-    max-width: 100% !important;
-    padding: 55px 20px !important;
-    overflow: hidden !important;
-  }
-
   .hero-content {
-    width: 100% !important;
-    max-width: 100% !important;
-
-    /* IMPORTANT */
-    display: flex !important;
-    flex-direction: column !important;
-
-    gap: 30px !important;
-
-    margin: 0 !important;
-    padding: 0 !important;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
   }
 
+  .hero h1,
+  .hero-title {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
 
-  /* ---------- HERO TEXT ---------- */
+    font-size: clamp(38px, 11vw, 58px);
+    line-height: 1.05;
 
-  .hero h1 {
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
+    word-break: normal;
+    overflow-wrap: break-word;
+    white-space: normal;
 
-    font-size: 48px !important;
-    line-height: 1.05 !important;
-
-    letter-spacing: -1.5px !important;
-
-    margin: 15px 0 20px !important;
-
-    white-space: normal !important;
-    overflow-wrap: anywhere !important;
-    word-break: normal !important;
+    margin: 20px 0 28px;
   }
 
+  .hero p,
+  .hero-description {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
 
-  .eyebrow {
-    font-size: 13px !important;
-    letter-spacing: 2px !important;
+    font-size: 20px;
+    line-height: 1.6;
+
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: normal;
+
+    margin-bottom: 30px;
   }
 
+  /* ================= HERO BUTTONS ================= */
 
-  /* ---------- DESCRIPTION ---------- */
-
-  .intro {
-    width: 100% !important;
-    max-width: 100% !important;
-    min-width: 0 !important;
-
-    font-size: 17px !important;
-    line-height: 1.6 !important;
-
-    margin: 0 0 10px !important;
-
-    white-space: normal !important;
-    overflow-wrap: break-word !important;
+  .hero-buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
   }
 
-
-  /* ---------- BUTTONS ---------- */
-
-  .buttons {
-    width: 100% !important;
-    max-width: 100% !important;
-
-    display: flex !important;
-    flex-wrap: wrap !important;
-
-    gap: 12px !important;
-
-    margin: 0 !important;
+  .hero-buttons a,
+  .hero-buttons button {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
   }
 
-  .btn {
-    flex: 1 1 150px !important;
+  /* ================= HERO IMAGE ================= */
 
-    min-width: 0 !important;
-
-    text-align: center !important;
-
-    padding: 15px 18px !important;
+  .hero-image {
+    width: 100%;
+    max-width: 100%;
+    margin: 45px auto 0;
+    display: flex;
+    justify-content: center;
   }
 
-
-  /* ---------- PROFILE PHOTO ---------- */
-
-  .hero-visual {
-    width: 100% !important;
-    max-width: 100% !important;
-
-    display: flex !important;
-    justify-content: center !important;
-    align-items: center !important;
-
-    margin: 10px 0 0 !important;
-    padding: 0 !important;
-
-    position: static !important;
-    transform: none !important;
+  .hero-image img {
+    width: min(100%, 350px);
+    height: auto;
+    max-width: 100%;
   }
 
-  .profile-photo {
-    width: 270px !important;
-    max-width: 85% !important;
-    height: auto !important;
+  /* ================= GENERAL SECTIONS ================= */
 
-    display: block !important;
+  section {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
 
-    margin: 0 auto !important;
+  .container {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
 
-    position: static !important;
-    transform: none !important;
+  /* ================= ABOUT ================= */
+
+  .about {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+
+  .about p {
+    width: 100%;
+    max-width: 100%;
+    font-size: 20px;
+    line-height: 1.65;
+    overflow-wrap: break-word;
+  }
+
+  /* ================= SKILLS ================= */
+
+  .skills {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+
+  .skills-grid {
+    width: 100%;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+  }
+
+  /* ================= PROJECTS ================= */
+
+  .projects {
+    width: 100%;
+    max-width: 100%;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+
+  .project-grid {
+    width: 100%;
+    max-width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  .project {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  /* ================= VIDEO ================= */
+
+  .project-video {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .project-video video {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
   }
 }
 
 
-/* =====================================================
-   SMALL MOBILE PHONES
-   ===================================================== */
+/* =========================================
+   SMALL PHONES
+   ========================================= */
 
 @media (max-width: 480px) {
 
-  .nav {
-    padding: 18px 20px !important;
-  }
-
-  .logo {
-    font-size: 24px !important;
-    max-width: 140px !important;
-  }
-
-  .nav-links {
-    max-width: 180px !important;
-    gap: 10px 12px !important;
-  }
-
-  .nav-links a {
-    font-size: 13px !important;
-  }
-
-
   .hero {
-    padding: 45px 20px !important;
+    padding: 55px 22px 50px;
   }
 
-
-  .hero h1 {
-    font-size: 40px !important;
-    line-height: 1.08 !important;
-    letter-spacing: -1px !important;
+  .hero h1,
+  .hero-title {
+    font-size: clamp(36px, 12vw, 50px);
+    line-height: 1.05;
   }
 
-
-  .intro {
-    font-size: 16px !important;
-    line-height: 1.6 !important;
+  .hero p,
+  .hero-description {
+    font-size: 18px;
+    line-height: 1.6;
   }
 
-
-  .buttons {
-    flex-direction: column !important;
+  .container,
+  .about,
+  .skills,
+  .projects {
+    padding-left: 22px;
+    padding-right: 22px;
   }
 
-  .btn {
-    width: 100% !important;
-    flex: none !important;
+  .skills-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
   }
+} 
 
-
-  .profile-photo {
-    width: 260px !important;
-    max-width: 85% !important;
-  }
-}
-  
+    
