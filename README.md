@@ -139,7 +139,7 @@ I am continuously developing my analytical and technical skills through hands-on
 # 📄 Resume
 
 <p>
-  <a href="./Sushmita_Kumari_Resume.pdf" target="_blank">
+  <a href="./Sushmita_Data_Analyst_Resume.pdf" target="_blank">
     <b>📄 View Resume</b>
   </a>
 </p>
